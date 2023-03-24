@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffc582;
+}
+.image{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.header{
+    width: 100%;
+}
+
+.header .container{
+    margin-top: 0%;
+    display: flex;
+    width: 100%;
+    background-color: rgba(119, 72, 18, 0.96);
+    justify-content: center;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.options {
+    flex-grow : 8;
+}
+
+.options ul{
+    width: 100%;
+    list-style : none;
+}
+
+.options ul li{
+    float : left;
+    width : 20%;
+    text-align : center;
+    line-height: 100px;
+}
+
+.options ul li a{
+    text-decoration : none;
+    display : block;
+    color : #dce0dd;
+}
+
+.options ul li a:hover{
+    text-decoration : none;
+    display : block;
+    color : white;
+    background-color : #884c07;
+}
+
+.aaa{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscription{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    width: 360px;
+    height: 620px;
+    background-color: #884c07;
+    border-radius: 5px;
+}
+
+h1{
+    color: #ffc582;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4{
+    color: #ffc582;
+    text-align: center;
+}
+
+form{
+    width: 300px;
+    margin-left: 30px;
+}
+
+form label{
+    color: #ffffff;
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px;
+}
+
+form select{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px;
+}
+
+.subscription .infos{
+    align-items: center;
+    text-align: center;
+}
+.subscription .infos a{
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid rgba(250, 139, 139, 0.6);
+    display: inline-block;
+    color: #000000cf;
+    background-color: #ffc582;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.subscription .infos a:hover{
+    background: #884c07;
+    color: aliceblue;
+}
+
+.subscription label{
+    color: #ffffff;
+}
+
+p{
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+a{
+    color: black;
+}
+
+.footer{
+    background-color: rgba(119, 72, 18, 0.96);
+    text-align: center; 
+    color: #ffc582;
+    padding: 20px;
+}
+
+.info a img{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 3%;
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="..//CSS/Subcsribe.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img class="image" src="..//Contents/Logo-removebg-preview.png" alt="">
+            </div>
+            <div class="options">
+                <ul>
+                    <li><a href="..//HTML/1_HomePage.html">Home</a></li>
+                    <li><a href="..//HTML/2_Gallery.html">Gallery</a></li>
+                    <li><a href="..//HTML/3_AboutUs.html">About Us</a></li>
+                    <li><a href="..//HTML/4_ContactUs.html">Contact Us</a></li>
+                    <li><a href="..//HTML/5_Subscribe.html">Subscribe</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="aaa">
+        <div class="subscription">
+            <h1>Subscription</h1>
+            <h4>Be a part of our member now!</h4>
+            <form name="subform" action="..//HTML/1_HomePage.html" onsubmit="return validate()">
+                <label for="name">First name</label>
+                <input type="text" placeholder="Enter your First name" >
+                <label for="name">Last name</label>
+                <input type="text" placeholder="Enter your Last name" >
+                <label for="email">Email</label>
+                <input type="email" placeholder="Enter your Email" >
+                <label for="phone">Phone Number</label>
+                <input type="text" placeholder="Enter your Active Phone Number" >  
+                <label for="country">Country</label>
+                <select name="country" id="country"><option value="null">Choose Your Country!</option>
+                <option value="">Indonesia</option>
+                <option value="">Malaysia</option>
+                <option value="">Singapore</option>
+                </select>
+
+                <div>
+                    <span style="color: red;" id="error">
+                    </span>
+                </div>
+                
+                <div class="infos">
+                <a href="..//HTML/1_HomePage.html">Subscribe</a>  
+                 </div> 
+            </form>
+    
+            <p>By Subscribing, you agree to our <br>
+            <a href="#">Terms and Condition </a> and <a href="#">Policy And Privacy</a> 
+            </p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="info">
+            <h1>Find Us on Social Media!</h1>
+            <p>“Capturing moments from today,Creating memories for a lifetime.”</p>
+            <div class="sosmed">
+                <a href=""><img src="..//Contents/sosmed/facebook (1).png" alt=""></a>
+                <a href=""><img src="..//Contents/sosmed/instagram.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+    <script src="..//jsval/validation.js"></script>
+
+</body>
+</html>

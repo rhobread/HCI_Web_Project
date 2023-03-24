@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #ffc582;
+}
+.image{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.header{
+    width: 100%;
+}
+
+.header .container{
+    margin-top: 0%;
+    display: flex;
+    width: 100%;
+    background-color: rgba(119, 72, 18, 0.96);
+    justify-content: center;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.options {
+    flex-grow : 8;
+}
+
+.options ul{
+    width: 100%;
+    list-style : none;
+}
+
+.options ul li{
+    float : left;
+    width : 20%;
+    text-align : center;
+    line-height: 100px;
+}
+
+.options ul li a{
+    text-decoration : none;
+    display : block;
+    color : #dce0dd;
+}
+
+.options ul li a:hover{
+    text-decoration : none;
+    display : block;
+    color : white;
+    background-color : #884c07;
+}
+
+.type{
+    background-color: #ffc582;
+    color : rgba(105, 48, 7, 0.995);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -20px;
+}
+
+.type h1{
+    font-size: 3em;
+    font-weight: bolder;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #884c07 ;
+}
+
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px 0 20px;
+}
+
+.row .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.row .box p{
+    text-align: center;
+    font-size: 30px;
+    color: #884c07;
+}
+
+.row .box .pic{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.row .box .pic img{
+    width: 100%;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
+.row .button{
+    margin: 40px 0 70px 0;
+    background: #884c07;
+    padding: 15px 40px;
+    border-radius: 25px; 
+}
+
+.row .button a{
+    color: beige;
+    font-size: 1.2em;
+    text-decoration: none;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+
+.footer{
+    background-color: rgba(119, 72, 18, 0.96);
+    text-align: center; 
+    color: #ffc582;
+    padding: 20px;
+}
+
+.info a img{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 3%;
+}

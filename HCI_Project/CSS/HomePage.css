@@ -1,0 +1,165 @@
+*{
+    margin: 0px;
+    font-family: sans-serif;
+    padding: 0px;
+}
+
+body{
+    background: #ffc582;
+}
+.image{
+    width: 150px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.header{
+    position: relative;
+}
+.header .container{
+    margin-top: 0%;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    background-color: rgba(119, 72, 18, 0.96);
+    justify-content: center;
+}
+
+.logo{
+    flex-grow: 1;
+}
+
+.options {
+    flex-grow : 8;
+}
+
+.options ul{
+    width: 100%;
+    list-style : none;
+}
+
+.options ul li{
+    float : left;
+    width : 20%;
+    text-align : center;
+    line-height: 100px;
+}
+
+.options ul li a{
+    text-decoration : none;
+    display : block;
+    color : #dce0dd;
+}
+
+.options ul li a:hover{
+    text-decoration : none;
+    display : block;
+    color : white;
+    background-color : #884c07;
+}
+
+.theme{
+    width: 100%;
+    margin-bottom: -10px;
+}
+
+.slogan{
+    position: absolute;
+    top: 45vh;
+    width: 100%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.type{
+    background-color: #ffc582;
+    color : rgba(105, 48, 7, 0.995);
+    text-align: center;
+    padding: 20px;
+    margin-bottom: -10px;
+}
+
+.support{
+    background-color: #ffc582;
+    display: flex;
+    width: 100%;
+}
+
+.support .box{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.box{
+    width: 100%;
+    text-align: center;
+    padding: 0px;
+    
+}
+
+.support .box img{
+    border-radius: 25px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    width: 300px;
+    height: 250px;
+    background-color: #ca7411;
+    flex-grow: 2;
+}
+
+.support .box a{
+    display : inline-block;
+    color : rgba(105, 48, 7, 0.995);
+    text-decoration: none;
+    font-size: 14;
+    margin-bottom: 30px;
+}
+
+.support .box a:hover{
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: rgba(119, 72, 18, 0.6);
+    width: 100%;
+}
+
+.Top{
+    border-radius: 25px;
+    background-color: rgba(119, 72, 18, 0.96);
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+.Photo .febian{
+    color: #884c07;
+    width: 150px;
+    height: 150px;
+}
+
+.photo h2, .photo p{
+    color: #ffc582;
+    margin: 10px ;
+    font-size: 12;
+}
+
+.footer{
+    background-color: rgba(119, 72, 18, 0.96);
+    text-align: center; 
+    color: #ffc582;
+    padding: 20px;
+}
+
+.info h1{
+    font-size: 36px;
+}
+
+.info a img{
+    margin-top: 10px;
+    margin-bottom: -10px;
+    width: 3%;
+}
+
+
+
